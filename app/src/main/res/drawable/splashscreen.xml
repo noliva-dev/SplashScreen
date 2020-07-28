@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- TODO 0: https://www.youtube.com/watch?v=ksaaMt8Lo6U https://medium.com/@pererikbergman/android-splash-screens-a1f44acb4fce -->
+    <!-- TODO 1: Creación de fichero de diseño de splash screen -->
+    <!-- TODO 2: Definición de color de fondo de splash screen -->
+    <item
+        android:drawable="@android:color/black" />
+    <!-- TODO 3: Definición de imagen de splash screen, así como sus atributos (imagen vectorial) -->
+    <item
+        android:width="48dp"
+        android:height="48dp"
+        android:drawable="@mipmap/ic_launcher"
+        android:gravity="center" />
+
+    <!--En caso de ser mapa de bits, probar-->
+    <!--<item>
+        <bitmap
+            android: gravity = "center"
+            android: src = "@ mipmap / ic_launcher" />
+    </item>-->
+
+</layer-list>
